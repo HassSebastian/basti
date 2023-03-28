@@ -3,4 +3,7 @@ body {
   user-select: none;
   margin: 0;
   font-family: "Open Sans";
+  &::-webkit-scrollbar {
+    width: 0;
+  }
 }
